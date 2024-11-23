@@ -125,10 +125,10 @@ function App() {
     <div id="authors">
         <center>
             <div className="author-row-new">
-                <a href="https://marceltorne.github.io/">Marcel Torne<sup>1,3</sup></a>,
-                <a href="https://arhanjain.github.io/">Arhan Jain<sup>2</sup></a>,
-                <a href="https://yuanjiay.github.io/">Jiayi Yuan<sup>2</sup></a>,
-                <a href="https://www.linkedin.com/in/vidyaaranya-macha/">Vidyaaranya Macha<sup>2</sup></a>,
+                <a href="https://marceltorne.github.io/">Marcel Torne<sup>1,3,*</sup></a>,
+                <a href="https://arhanjain.github.io/">Arhan Jain<sup>2,*</sup></a>,
+                <a href="https://yuanjiay.github.io/">Jiayi Yuan<sup>2,*</sup></a>,
+                <a href="https://www.linkedin.com/in/vidyaaranya-macha/">Vidyaaranya Macha<sup>2,*</sup></a>,
                 <a href="https://ankile.com/">Lars Lien Ankile<sup>1</sup></a>,
                 <a href="https://anthonysimeonov.github.io/">Anthony Simeonov<sup>1</sup></a>,
                 <a href="https://people.eecs.berkeley.edu/~pulkitag/">Pulkit Agrawal<sup>1</sup></a>,
@@ -140,6 +140,9 @@ function App() {
             <span><sup>1</sup> Massachusetts Institute of Technology </span>
             <span><sup>2</sup> University of Washington</span>
             <span><sup>3</sup> Stanford University </span>
+        </div>
+        <div className="affiliations">
+            <span><sup>*</sup> equal contribution </span>
         </div>
 
 
