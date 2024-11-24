@@ -93,8 +93,8 @@ function App() {
         // Initialize the Bulma Carousel
         if (window.bulmaCarousel) {
           window.bulmaCarousel.attach("#results-carousel", {
-            slidesToScroll: 5,
-            slidesToShow: 5,
+            slidesToScroll: 3,
+            slidesToShow: 3,
             loop: true,
             autoplay: true,
             autoplaySpeed: 3000,
